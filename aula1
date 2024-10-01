@@ -1,0 +1,77 @@
+MER uso de entidades para representar objetos do mundo real no BD
+Uso de atributos para identificar as entidades, uso de relacionamentos para associar entidades
+DER
+
+"pé de galinha sempre no N"
+valores calculados nao devem fazer parte da tabela tipo média do aluno
+coluna 1:N criar a tabale add do lado N
+Fusão das tabelas narido e esposa pois atributos são iguais
+Titulo e Pessoa eu crio a nova tabela no lado pessoa
+Auto gerenciamento empregado gerencia empregado relacionamenot único
+Relacionamento ternario o relacionamento pega as chaves de cada um
+
+Normalização Eliminar anomalias de atualização, inclusão, exclusão e alteração
+
+1FN eliminar valores nultivalorados ex telefone
+Atributos devem ser atomicos, indivisivel, ex endereço
+Eliminar tabelas aninhadas ex aluno tem de atributos codcurso
+
+2FN
+Estar na 1FN
+ atributos não chaves primos devem depender do atributo chave e não de parte dela
+Eliminar dependencias funcionais
+
+3FN
+estar na 2FN
+Atributos não pode depender de outros primos
+Eliminar dependencia transitiva
+Valores calcuçados nao devem permanecer na tabela
+
+Algebra relacional]realizar consultas, buscar pesquisar
+
+tipo de dados é chamado de dominio
+
+seleção sigma
+no SQL
+SELECT * FROM cliente
+WHERE nome ="Pedro Rocha"
+
+projeção com condição q so ten en sekect
+SELECT nome, cidade
+WHERE
+formadepagamento = "B"
+
+Exercício
+1-
+A1.a) σ PESO >= 2 (PRODUTO) → KLXP33, MMnO55, KKeeR21.
+b) σ DESTINO = “Manaus” → KLXP33, MMnO55.
+c) σ SIGLA > ‘H’ → XPTO21, KLXP33.
+d) σ ORIGEM = Curitiba(σ VALOR > 230) → null.
+e) σ ID > 1(σ VALOR >= 200(σ QUANTIDADE < 400))→ KLXP33, MMnO55.
+2.ℼ Produto, Origem, destino( σ VALOR > 210 v σ SIGLA = ‘B’) → XPTO21,
+Curitiba, Cuiabá; KLXP33, Porto Alegre, Manaus.
+3. XPTO21, J; MMnO55, A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
