@@ -1,0 +1,5 @@
+chave estrangeira tem o lado N
+no exemplo 2 chaves estrangeiras em duas tabelas isso nao existe, é criado outra tabela
+já criei a tabela, nao existe exclui-la tem q usar o ALTER 
+CASCADE GUARDA LOG OPERAÇÕES, restrict não
+inner join mostra a junção q tem dentro das tabelas
